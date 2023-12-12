@@ -1,0 +1,138 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 25px;
+    filter: drop-shadow(5px 5px 5px lightblue);  
+    
+}
+.nav {
+    text-align: right;
+    max-width: ;width: 500px;
+    padding-left: 250px;
+}
+
+.padded {
+    padding: 16px;
+}
+#mobile-nav {
+  background-color: #C6020D;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+#mobile-nav a {
+  color: white;
+  display: block;
+padding: 10px 20px;
+font-family: "marine", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+
+.nav a {
+    padding:0 10px; 
+    font-family: "marine", sans-serif;
+font-weight: 700;
+font-style: italic;
+color: #C6020D;
+
+}
+
+.grid2 {
+  max-width:1200px;
+  text-align:center;        
+  margin:0 auto;
+}
+
+
+
+
+
+
+.rep {
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(5px 5px 5px lightblue);
+}
+
+.display-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.displaytext {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "marine", sans-serif;
+font-weight: 1200;
+font-style: italic;
+color: #26349F;
+
+font-size: large;
+line-height: 1.6;
+padding-top: 45px;
+font-size:1.5vw;
+}
+
+.headtype1 {
+padding-bottom: 65px; 
+padding-top: 325px;
+}
+.headtype2 {
+  padding-bottom: 65px; 
+  padding-top: 65px;
+  }
+
+.centertype {
+  margin-left: auto;
+  margin-right: auto;
+  column-span: all;
+}
+
+.menutype {
+  font-family: "marine", sans-serif;
+font-weight: 1200;
+font-style: italic;
+color: #26349F;
+padding-top: 35px;
+font-size: larger;
+font-size:1.5vw;
+}
+footer {
+  background-color: #C6020D;
+  padding: 30px;
+  text-align: right;
+  color: white;
+}
+footer img {
+  padding-right: 70px;
+}
+  
+.leftatad {
+  padding-left: 50px;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 200px;
+  filter: drop-shadow(5px 5px 5px lightblue);
+}
+.boot {
+  padding-bottom: 50px;
+}
+.footer {
+  position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+  
+  
